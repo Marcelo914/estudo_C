@@ -16,7 +16,6 @@ int main()
   while (attemps > 0 && enterpswd != password) {
     scanf("%d", &enterpswd);
     attemps --;
-    printf("tente novamente\n");
   }
   if (enterpswd == password) {
     printf("Sucesso\n");
