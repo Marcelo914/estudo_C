@@ -3,23 +3,11 @@
 
 int main()
 {
-  int x, cont, total;
-  cont = 0;
-  total = 0;
-  char letra;
+  int a;
 
-  while (letra = getchar()!= 'q') {
-    printf("Digite um número:\n");
-    scanf("%d", &x);
-
-
-    fflush(stdin);
-
-    cont++;
-    total = total + x;
-  
-  }
-  printf("Parando...\n");
-  printf("Repetições = %d e total = %d \n", cont, total);
+  do {
+    printf("Digite o valor:\n");
+    scanf("%d", &a);
+  } while(a == 0);
   return 0;
 }
