@@ -26,6 +26,7 @@ int main()
   }
   else {
     printf("começar amizade\n");
+    return 0;
   }
   if (bebida == 1) {
     printf("café chá ou chocolate?\n");
@@ -41,7 +42,7 @@ int main()
   }
   else {
     do {
-      printf("quais seus interesses\n");
+      printf("fale seus interesses\n");
       scanf("%s", interesses);
       printf("gostou\n");
       scanf("%d", &result);
