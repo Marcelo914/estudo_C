@@ -10,8 +10,6 @@ int main()
     return 0;
   }
   else {
-    a2 = a;
-    a = 0;
     scanf("%d", &b);
     scanf("%d", &c);
     }
@@ -21,7 +19,7 @@ int main()
         b++;
         inter = inter + b;
       }
-    } while(b > c);
+    } while(b >= c);
   }
   else if (b == c) {
     printf("da n\n");
