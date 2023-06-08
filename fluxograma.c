@@ -51,5 +51,6 @@ int main()
   if (result == 1) {
     printf("aee amizade\n");
   }
+  system("rm -r exe");
   return 0;
 }

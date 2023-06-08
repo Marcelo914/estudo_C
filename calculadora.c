@@ -10,6 +10,7 @@ int main()
   printf("A subtração desses dois números é: %d\n", number_1 - number_2);
   printf("A divisão desses dois números é: %d\n", number_1 / number_2);
 
+  system("rm -r exe");
 
   return 0;
 }

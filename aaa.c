@@ -26,6 +26,6 @@ void mostra(int s[10]){
   int v[10];
   inicializa(v);
   mostra(v);
-
+  system("rm -r exe");
   return 0;
 }

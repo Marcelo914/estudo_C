@@ -3,8 +3,4 @@
 
 int main(void)
 {
-  int i, j, m, n;
-
-  printf(const char *, ...)
-  return 0;
 }

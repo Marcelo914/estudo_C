@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <sys/select.h>
 
 int main()
 {
@@ -33,6 +34,7 @@ int main()
     }
     }while(c > b);
     }
+  system("rm -r exe");
   
   return 0;
 }
