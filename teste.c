@@ -5,17 +5,19 @@ int marcelo(int num1, int num2) {
   scanf("%d", &num1);
   printf(" digite o segundo numero:\n");
   scanf("%d", &num2);
+  result = num1 + num2;
+  return result;
 }
 
 int main(void) {
-  printf("Escolha a operação");
+  printf("Escolha a operação\n");
   scanf("%d", &op);
 
   switch (op) {
   case 1:
     marcelo(num1, num2);
     result = num1 + num2;
-    printf("%d \n", result);
+    printf("%d\n", result);
   break;
   case 2:
     marcelo(num1,num2);
