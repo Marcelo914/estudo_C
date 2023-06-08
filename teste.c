@@ -18,12 +18,15 @@ int main(void) {
     result = num1 + num2;
     printf("%d \n", result);
   case 2:
+    marcelo(num1,num2);
     result = num1 - num2;
     printf("%d\n", result);
   case 3:
+    marcelo(num1,num2);
     result = num1 *num2;
     printf("%d\n,", result);
   case 4:
+    marcelo(num1,num2);
     result = num1 / num2;
     printf("%d\n", result);
   }
