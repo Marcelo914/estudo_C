@@ -14,6 +14,7 @@ int main(void) {
 
   switch (op) {
   case 1:
+    marcelo(num1, num2);
     result = num1 + num2;
     printf("%d \n", result);
   case 2:
