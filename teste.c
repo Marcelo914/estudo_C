@@ -5,6 +5,7 @@ int marcelo(int num1, int num2) {
   scanf("%d", &num1);
   printf(" digite o segundo numero:\n");
   scanf("%d", &num2);
+  return result;
 }
 
 int main(void) {
