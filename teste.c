@@ -5,7 +5,6 @@ int marcelo(int num1, int num2) {
   scanf("%d", &num1);
   printf(" digite o segundo numero:\n");
   scanf("%d", &num2);
-  return result;
 }
 
 int main(void) {
@@ -17,21 +16,21 @@ int main(void) {
     marcelo(num1, num2);
     result = num1 + num2;
     printf("%d \n", result);
-    break;
+  break;
   case 2:
     marcelo(num1,num2);
     result = num1 - num2;
     printf("%d\n", result);
-    break;
+  break;
   case 3:
     marcelo(num1,num2);
     result = num1 *num2;
     printf("%d\n,", result);
-    break;
+  break;
   case 4:
     marcelo(num1,num2);
     result = num1 / num2;
     printf("%d\n", result);
-    break;
+  break;
   }
 }
