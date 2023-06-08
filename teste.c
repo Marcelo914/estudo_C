@@ -9,7 +9,7 @@ int marcelo(int num1, int num2) {
 }
 
 int main(void) {
-
+  printf("Escolha a operação");
   scanf("%d", &op);
 
   switch (op) {
@@ -17,17 +17,21 @@ int main(void) {
     marcelo(num1, num2);
     result = num1 + num2;
     printf("%d \n", result);
+    break;
   case 2:
     marcelo(num1,num2);
     result = num1 - num2;
     printf("%d\n", result);
+    break;
   case 3:
     marcelo(num1,num2);
     result = num1 *num2;
     printf("%d\n,", result);
+    break;
   case 4:
     marcelo(num1,num2);
     result = num1 / num2;
     printf("%d\n", result);
+    break;
   }
 }
