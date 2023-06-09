@@ -1,3 +1,3 @@
-ll: ./exe
-	gcc teste.c -o exe
+all: ./exe
+	gcc fibonacci.c -o exe
 	./exe
